@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recordListLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F6F8FC"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textViewListTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saved Electricity Bills"
+        android:textColor="#0C2252"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/textViewListInstruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap any record to view full details, edit or delete."
+        android:textColor="#545454"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginBottom="18dp" />
+
+    <ListView
+        android:id="@+id/listViewRecords"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:divider="#DDDDDD"
+        android:dividerHeight="1dp" />
+
+    <Button
+        android:id="@+id/buttonBackHome"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:backgroundTint="#777777"
+        android:layout_marginTop="18dp" />
+
+</LinearLayout>
