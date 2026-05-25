@@ -13,7 +13,7 @@ public class AboutActivity extends AppCompatActivity {
     TextView textViewGithubUrl;
     Button buttonBackAbout;
 
-    String githubUrl = "github.url";
+    String githubUrl = "https://github.com/syarifulhisham25/ElectricBIllCalculator_Syariful.git";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
