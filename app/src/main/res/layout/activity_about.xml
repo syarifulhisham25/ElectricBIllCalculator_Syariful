@@ -64,7 +64,7 @@
                 android:id="@+id/textViewStudentId"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Student ID: 2022256256"
+                android:text="Student ID: 2022258258"
                 android:textColor="#333333"
                 android:textSize="16sp"
                 android:layout_marginBottom="8dp" />
